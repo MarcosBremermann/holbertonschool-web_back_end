@@ -1,3 +1,6 @@
 // Task lists all documents in the collection school
 
+show dbs
+use school
+show collections
 db.collection.find( <school> )
