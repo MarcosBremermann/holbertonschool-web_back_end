@@ -1,0 +1,7 @@
+// Task  list all databases
+
+db.adminCommand(
+   {
+     listDatabases: 1
+   }
+)
