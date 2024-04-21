@@ -1,0 +1,9 @@
+// Task inserts a document in the collection school
+
+use school
+
+db.insertOne (
+    {
+        name: “Holberton school”
+    }
+);
