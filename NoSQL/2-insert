@@ -1,8 +1,6 @@
 // Task inserts a document in the collection school
 
-use school
-
-db.insertOne (
+school.insert (
     {
         name: “Holberton school”
     }
