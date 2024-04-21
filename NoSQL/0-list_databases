@@ -1,3 +1,4 @@
 // Task  list all databases
 
-showdbs
+show databases
+show dbs
