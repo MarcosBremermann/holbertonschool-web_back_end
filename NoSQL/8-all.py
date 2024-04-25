@@ -9,6 +9,6 @@ def list_all(mongo_collection):
     """lists all documents in a collection"""
 
     empty_list = []
-    if mongo_collection not NULL:
-        return mongo_collection.find()
+    if mongo_collection is not NULL:
+        return list(mongo_collection.find())
     return empty_list
