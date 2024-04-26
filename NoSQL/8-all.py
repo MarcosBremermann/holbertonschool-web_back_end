@@ -8,6 +8,7 @@ from pymongo import MongoClient
 def list_all(mongo_collection):
     """lists all documents in a collection"""
 
-    cursor = mongo_collection.find()
-    documents = list(cursor)
-    return documents
+    empty_list = []
+    if mongo_collection is not NULL:
+        return list(mongo_collection.find())
+    return empty_list
